@@ -6,7 +6,7 @@ import pandas as pd
 @app.route("/")
 @app.route("/index")
 def index():
-    return "Hello Flask World!"
+    return "Yes, I'm awake!"
 @app.route("/predict", methods=["GET","POST"])
 def predict():
     if request.method == "GET":
