@@ -1,5 +1,5 @@
 # ds-f-homework
-##Python homework
+## Python homework
 Predicts average house prices in an area, based on certain attributes of the area.
 
 Data exploration and a regression model in _Jupyter_, then use the trained model in a _Flask app_.
