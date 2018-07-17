@@ -7,11 +7,8 @@ name = "pypi"
 pandas = "*"
 flask = "*"
 gunicorn = "*"
-"sklearn.linear_model" = "*"
-"sklearn.cross_validation" = "*"
-"sklearn.preprocessing" = "*"
-pickle = "*"
 requests = "*"
+scikit-learn = "*"
 
 [dev-packages]
 
