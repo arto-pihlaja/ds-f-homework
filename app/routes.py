@@ -27,7 +27,7 @@ def create_response(request):
         iv_list.append(request.json[iv])
     #model = pickle.load(open(".\\app\\cv_polyfit.pkl","rb"))
     model = pickle.load(open("./app/cv_polyfit.pkl","rb"))
-    rmse = pickle.load(open(".\\app\\cv_rmse.pkl","rb"))
+    rmse = pickle.load(open("./app/cv_rmse.pkl","rb"))
     df = pd.DataFrame(iv_list).transpose()
     response = {"house_value" : model.predict(df)[0],
         "stddev" : rmse }
