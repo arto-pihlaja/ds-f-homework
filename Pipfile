@@ -9,6 +9,8 @@ flask = "*"
 gunicorn = "*"
 requests = "*"
 scikit-learn = "*"
+scipy = "*"
+matplotlib = "*"
 
 [dev-packages]
 
